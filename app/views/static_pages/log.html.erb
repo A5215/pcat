@@ -1,0 +1,30 @@
+<p>
+  379  cd install/
+  380  rails new pcat
+  381  cd pcat
+  382  bundle install --without production --path vendor/bundle
+  383  git init
+  384  git add -A
+  385  git commit -m "Initialise repository"
+  386  git remote add origin https://github.com/a5215/pcat.git
+  387  git push origin master
+  388  heroku new
+  389  heroku create
+  390  git remote
+  391  git push heroku master
+  392  rails server
+  393  generate new controller StaticPages home
+  394  rails generate new controller StaticPages home
+  395  rails generate controller StaticPages home
+  396  rails server
+  397  rails test
+  398  rails server
+  399  rails test
+  400  rails server
+  404  git add -A
+  405  git commit -m 'Make static_pages/home'
+  416  git push heroku master
+  418  git push origin master
+
+Если накосячишь с дублирующими коммитами git rebase --interactive HEAD~2
+</p>
